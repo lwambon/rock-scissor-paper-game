@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock paper scissor game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/games.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-header">
+            <div class="game-header-items">
+                <p>&copy;  2024 </p>
+            <a href="#">Lucy Wambui</a>
+            </div>
+            <div class="game-score-header">
+                <p>computer 0  </p>
+                <p>player 0  </p>
+            </div>
+        </div>
+        <!------------------------------computers choice------------------------------------------->
+        <div class="computer-display">
+            <h3 class="computer-title" id="computers-choice">computer</h3>
+            <div class="game-icon">
+                <div class="computer-dispay-choice">
+                </div>
+            </div>
+        </div>
+     <!---------------------------------------------results bar--------------------------------------------->
+        <div class="result">
+            <h5 class="score-result" id="results">currently win</h5>
+        </div>
+
+        <!----------------------------------players-choice------------------------------------------------>
+
+        <div class="player-display">
+            <h3 class="player-title" id="player-choice">player</h3>
+            <div class="game-icon">
+                
+            </div>
+        </div>
+        <!-----------------------------------possible wins----------------------------------------------------->
+        <div class="choices" id="choices-win">
+            <button onclick="playgame('rock')" class="btn-game" id="game-icons-btn">
+                <div class="icon-choices">
+                    <span style="font-size:3rem">&#9996;</span>
+                    <p>rock</p>
+                </div>
+            </button>
+
+            <button  onclick="playgame('scissors')"class="btn-game"> 
+                <div class="icon-choices">
+                    <span style="font-size:3rem;">&#9995;</span> 
+                    <p>paper</p>
+                </div>
+            </button>
+
+            <button  onclick="playgame('paper')"class="btn-game" > 
+                <div class="icon-choices">
+                    <span style='font-size:3rem;'>&#9994;</span>
+                    <p>scissors</p>
+                </div>   
+             </button> 
+             
+        </div>
+
+    </div>
+    <script  type="text/javascript" src="script.js"></script>
+</body>
+</html>

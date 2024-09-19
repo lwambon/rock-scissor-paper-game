@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+*{
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    font-family: "Protest Guerrilla", sans-serif;
+}
+/*html{
+    font-size:62.5%
+}*/
+
+.game-container{
+    background-color:#9fc91f;
+    padding-top: 0rem;
+    margin: 0rem 22rem 0rem 22rem;
+    height: auto;
+}
+.game-header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.game-header-items{
+    display: flex;
+    gap: 1.5rem;
+    padding-left: .9rem;
+    padding-top: .4rem;
+   
+}
+
+.game-score-header{
+    display: flex;
+    gap: 2.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    
+}
+
+.computer-title{
+    text-align: center;
+    padding-top: 1rem;
+    font-weight: 500;
+    letter-spacing:.3rem;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+}
+
+
+.computer-game{
+    
+    align-items: center;
+}
+
+.computer-dispay-choice{
+    align-items: center;
+    justify-content: center;
+    font-size:4rem;
+    margin: auto;
+}
+.game-icon{
+    align-content: center;
+    justify-content: center;
+    border: .2rem dotted black;
+   width: 7rem;
+    height: 7rem;
+    margin: auto;
+    margin-bottom: .7rem;
+    margin-top: .7rem;
+
+}
+    
+.result{
+    background-color:rgb(243,194,69);
+    padding: 1rem;
+}
+
+.score-result{
+    text-align: center;
+    font-weight:500;
+    font-size:1.3rem;
+    text-transform: uppercase;
+    padding-top: .6rem;
+}
+
+.player-game{
+    align-items: center;
+    justify-content: center;
+}
+
+.player-title{
+    text-align: center;
+    padding-top: 1rem;
+    font-weight: 500;
+    letter-spacing:.3rem;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+}
+
+.player-dispay-choice{
+    align-items: center;
+    justify-content: center;
+    font-size:4rem;
+    margin: auto;
+}
+.choices{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+
+.btn-game{
+    height: 6.2rem;
+    border-radius: .6rem;
+    font-size: 1.5rem;
+    padding-right: 2.3rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1.65rem;
+    border: transparent;
+}
+
+.icon-choices{
+    text-align: center;
+    font-family: "Protest Guerrilla", sans-serif;
+}
+
+.icon-choices p{
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 1rem;
+    margin-bottom: 1.6rem;
+
+}
+
