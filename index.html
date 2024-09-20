@@ -14,11 +14,18 @@
         <div class="game-header">
             <div class="game-header-items">
                 <p>&copy;  2024 </p>
-            <a href="#">Lucy Wambui</a>
+            <a href="#" style="color: blue;">Lucy Wambui </a>
             </div>
             <div class="game-score-header">
-                <p>computer 0  </p>
-                <p>player 0  </p>
+                <div class="computer-score">
+                    <p>computer   </p>
+                    <p class="computer-count ">0</p>
+                </div>
+                <div class="player-score">
+                    <p class="player-count">0</p>
+                    <p>player</p>
+                </div>
+    
             </div>
         </div>
         <!------------------------------computers choice------------------------------------------->
@@ -31,7 +38,7 @@
         </div>
      <!---------------------------------------------results bar--------------------------------------------->
         <div class="result">
-            <h5 class="score-result" id="results">currently win</h5>
+            
         </div>
 
         <!----------------------------------players-choice------------------------------------------------>
@@ -39,28 +46,29 @@
         <div class="player-display">
             <h3 class="player-title" id="player-choice">player</h3>
             <div class="game-icon">
-                
+                <div class="player-dispay-choice">
+                </div>
             </div>
         </div>
         <!-----------------------------------possible wins----------------------------------------------------->
         <div class="choices" id="choices-win">
             <button onclick="playgame('rock')" class="btn-game" id="game-icons-btn">
                 <div class="icon-choices">
-                    <span style="font-size:3rem">&#9996;</span>
+                    <span style="font-size:3rem">&#9994;</span>
                     <p>rock</p>
                 </div>
             </button>
 
-            <button  onclick="playgame('scissors')"class="btn-game"> 
+            <button  onclick="playgame('paper')"class="btn-game"> 
                 <div class="icon-choices">
-                    <span style="font-size:3rem;">&#9995;</span> 
+                    <span style='font-size:3rem;'>&#9995;</span>
                     <p>paper</p>
                 </div>
             </button>
 
-            <button  onclick="playgame('paper')"class="btn-game" > 
+            <button  onclick="playgame('scissor')"class="btn-game" > 
                 <div class="icon-choices">
-                    <span style='font-size:3rem;'>&#9994;</span>
+                    <span style="font-size:3rem;">&#9996;</span> 
                     <p>scissors</p>
                 </div>   
              </button> 
