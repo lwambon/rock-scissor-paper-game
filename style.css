@@ -20,9 +20,15 @@ body{
 
 .game-container{
     background-color:var(--main-color);
-    padding-top: 0rem;
-    margin: 0rem 22rem 0rem 22rem;
+    margin: auto;
     height: 100vh;
+    width: 45rem;
+}
+@media screen and (max-width:21.5rem) {
+    .game-container{
+        height: auto;
+    }
+    
 }
 .game-header{
     display: flex;
@@ -62,11 +68,11 @@ body{
 
 .computer-title{
     text-align: center;
-    padding-top: 1rem;
     font-weight: 500;
     text-transform: capitalize;
     font-size: 1.1rem;
     line-height: 1;
+    margin-top: 2rem;
 }
 
 
@@ -81,6 +87,9 @@ body{
     font-size:4rem;
     margin: auto;
 }
+
+
+
 .game-icon{
     align-content: center;
     justify-content: center;
@@ -88,16 +97,20 @@ body{
     width: 7rem;
     height: 7rem;
     margin: auto;
-    margin-bottom: 1.2rem;
-    margin-top: .9rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
     text-align: center;
 
 }
     
 .result{
     background-color:var(--primary-color);
-    padding: 1.5rem;
+    padding: 1.3rem;
     text-align: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight:500;
+    letter-spacing: 1;
 }
 
 .score-result{
@@ -133,20 +146,21 @@ body{
     gap: 1.5rem;
     align-items: center;
     justify-content: center;
-    padding-top: 1.5rem;
+    padding-top: 1rem;
     text-align: center;
 }
 
 .btn-game{
     height: 6.8rem;
     border-radius: .6rem;
-    /*font-size: 1.5rem;*/
-    /*padding-right: 2.3rem;*/
+    font-size: 1rem;
+    /*padding-right: 1.9rem;
     padding-bottom: 1rem;
-    margin-bottom: 1.55rem;
+    margin-bottom: 1.8rem;*/
     border: transparent;
     cursor: pointer;
     text-align: center;
+    margin-bottom: 1.5rem;
 }
 
 
